@@ -1,6 +1,6 @@
 const ContactData = {
   id: "contact",
-  title: "Contacto mk",
+  title: "Contacto",
   subtitle:
     "En PROESPECIES, Somos líderes en la molienda de alimentos secos y deshidratados, con una amplia experiencia",
   paragraph:
