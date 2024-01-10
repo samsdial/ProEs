@@ -1,18 +1,16 @@
-
-import WhatWeDoData from './WhatWeDoData';
-import { BsWater, BsVinyl, BsVinylFill } from 'react-icons/bs';
-
+import { BsVinyl, BsVinylFill, BsWater } from "react-icons/bs";
+import WhatWeDoData from "./WhatWeDoData";
 
 function WhatWeDo() {
   const { title, subtitle, paragraph, list, imageSrc } = WhatWeDoData;
 
   const getIcon = (iconName) => {
     switch (iconName) {
-      case 'BsWater':
+      case "BsWater":
         return <BsWater />;
-      case 'BsVinyl':
+      case "BsVinyl":
         return <BsVinyl />;
-      case 'BsVinylFill':
+      case "BsVinylFill":
         return <BsVinylFill />;
       default:
         return null;
@@ -28,7 +26,7 @@ function WhatWeDo() {
               <h2 className="text-uppercase">{title}</h2>
             </div>
             <div className="subtitle mb-3">
-              <h3 className="h1" style={{ lineHeight: '1.5' }}>
+              <h3 className="h1" style={{ lineHeight: "1.5" }}>
                 {subtitle}
               </h3>
             </div>
@@ -40,11 +38,20 @@ function WhatWeDo() {
                 {list.map((item, index) => (
                   <li key={index}>
                     <div className="title-list d-flex">
-                    <div className="icon mr-3">{getIcon(item.iconName)}</div>
+                      <div className="icon mr-3">{getIcon(item.iconName)}</div>
                       <div className="h5">{item.title}</div>
                     </div>
                     <div className="paragraf pl-4">
-                      <p className='ml-2'>{item.description}</p>
+                      <p className="ml-2">{item.description}</p>
+                      <ul>
+                        {Object.values(item.sublist).map(
+                          (sublistItem, sublistIndex) => (
+                            <li key={sublistIndex}>
+                              <p>{sublistItem}</p>
+                            </li>
+                          )
+                        )}
+                      </ul>
                     </div>
                   </li>
                 ))}

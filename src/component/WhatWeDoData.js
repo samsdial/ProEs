@@ -8,21 +8,58 @@ const WhatWeDoData = {
     "El cual se realiza el proceso de reducción de partículas de alimentos",
   list: [
     {
-      iconName: "BsWater", // Nombre del icono como una cadena
-      title: "Picado",
-      description: "Proceso especial para aromáticas y especias.",
+      iconName: "BsWater",
+      title: "Picado (tizana)",
+      description: "Proceso especial para aromáticas y especias como:",
+      sublist: {
+        list1: "Moringa",
+        list2: "Estevia",
+        list3: "Manzanilla",
+        list4: "Hierba buena",
+        list5: "Menta",
+        list6: "Albahaca",
+        list7: "Flor de Jamaica",
+      },
     },
     {
-      iconName: "BsVinyl", // Nombre del icono como una cadena
+      iconName: "BsVinyl",
       title: "Pulverizado",
       description:
-        "proceso de reducción de partículas para obtener un producto en presentación de polvo ( azúcar, especias, granos, cereales, hortalizas, frutas deshidratadas, tubérculos desidratados)",
+        "Proceso de reducción de partículas para obtener un producto en presentación de polvo:",
+      sublist: {
+        list1:
+          "Especias: (Tomillo, laurel, albahaca, cilantro, perejil, pimientas, oregano)",
+        list2:
+          "Granos y semillas: ( Lentejas, arvejas, frijol, lenteja, garbanzo, arroz)",
+        list3:
+          "Cereales: (Avena, trigo, centeno, cebada, burgol, quinua, arroz integral, arroz negro, soya )",
+        list4:
+          "Hortalizas: (Raices comestibles, cebolla, ajo, espinaca, alcachofa, zanahoria, albahaca, calabaza, remolacha, apio, berenjena, acelga)",
+        list5:
+          "Frutas deshidratadas: (banano, piña, mango, fresa, guayaba, naraja, limon, piña, mora )",
+        list6:
+          "Tubérculos desidratados: (Zanahoria, papa, raiz de apio, gengibre, curcuma, nabo, colinabo, yuca, rabanos)",
+      },
     },
     {
-      iconName: "BsVinylFill", // Nombre del icono como una cadena
-      title: "Micropulverizado",
+      iconName: "BsVinylFill",
+      title: "Micropulverizado (micronizado)",
       description:
-        "proceso de reducción de partículas para obtener un producto en presentación de máxima finura (azúcar, especias, granos, cereales, hortalozas, tubérculos desidratados, frutas desidratadas)",
+        "Proceso de reducción de partículas para obtener un producto en presentación de máxima finura",
+      sublist: {
+        list1:
+          "Especias: (Tomillo, laurel, albahaca, cilantro, perejil, pimientas, oregano)",
+        list2:
+          "Granos y semillas: ( Lentejas, arvejas, frijol, lenteja, garbanzo, arroz)",
+        list3:
+          "Cereales: (Avena, trigo, centeno, cebada, burgol, quinua, arroz integral, arroz negro, soya )",
+        list4:
+          "Hortalizas: (Raices comestibles, cebolla, ajo, espinaca, alcachofa, zanahoria, albahaca, calabaza, remolacha, apio, berenjena, acelga)",
+        list5:
+          "Frutas deshidratadas: (banano, piña, mango, fresa, guayaba, naraja, limon, piña, mora )",
+        list6:
+          "Tubérculos desidratados: (Zanahoria, papa, raiz de apio, gengibre, curcuma, nabo, colinabo, yuca, rabanos)",
+      },
     },
   ],
   imageSrc: One,
