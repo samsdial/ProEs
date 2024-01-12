@@ -43,7 +43,7 @@ function WhatWeDo() {
                     </div>
                     <div className="paragraf pl-4">
                       <p className="ml-2">{item.description}</p>
-                      <ul>
+                      <ul className="row-list">
                         {Object.values(item.sublist).map(
                           (sublistItem, sublistIndex) => (
                             <li key={sublistIndex}>
