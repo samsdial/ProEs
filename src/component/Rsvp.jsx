@@ -18,9 +18,8 @@ function Rsvp() {
       }
     )
       .then((res) => res.text())
-      .then((data) => {
-        console.log(data);
-        setResponseMessage(data);
+      .then(() => {
+        setResponseMessage("Gracias por enviar el formulario.");
         setFormSubmitted(true);
       })
       .catch((err) => {
@@ -59,7 +58,7 @@ function Rsvp() {
                       />
                     </div>
                     <div className="form-group col-sm-6">
-                    <label className="caption">Apellido</label>
+                      <label className="caption">Apellido</label>
                       <input
                         type="text"
                         className="form-control border-bottom border-dark py-4 px-3"
@@ -69,8 +68,8 @@ function Rsvp() {
                   </div>
                   <div className="form-row mb-5">
                     <div className="form-group col-sm-6">
-                    <label className="caption">Email</label>
-                    <input
+                      <label className="caption">Email</label>
+                      <input
                         type="email"
                         className="form-control border-bottom border-dark py-4 px-3"
                         id="numberGuests"
