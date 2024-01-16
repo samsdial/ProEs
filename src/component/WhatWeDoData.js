@@ -5,7 +5,7 @@ const WhatWeDoData = {
   subtitle:
     "Somos prestadores de servicio de molienda de alimentos secos y deshidratados",
   paragraph:
-    "El cual se realiza el proceso de reducción de partículas de alimentos",
+    "El cual se realiza el proceso de reducción de partículas de alimentos como:",
   list: [
     {
       iconName: "BsWater",

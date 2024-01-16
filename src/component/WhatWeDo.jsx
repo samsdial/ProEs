@@ -1,3 +1,6 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { BsVinyl, BsVinylFill, BsWater } from "react-icons/bs";
 import WhatWeDoData from "./WhatWeDoData";
 
@@ -17,26 +20,34 @@ function WhatWeDo() {
     }
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div className="container-fluid py-5 bg-secondary" id="service">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 d-flex align-items-start flex-column">
             <div className="title mb-3">
-              <h2 className="text-uppercase">{title}</h2>
+              <h2 className="text-uppercase" data-aos="flip-left">
+                {title}
+              </h2>
             </div>
-            <div className="subtitle mb-3">
+            <div className="subtitle mb-3" data-aos="fade-right">
               <h3 className="h1" style={{ lineHeight: "1.5" }}>
                 {subtitle}
               </h3>
             </div>
-            <div className="paragraf">
+            <div className="paragraf" data-aos="fade-right">
               <p>{paragraph}</p>
             </div>
             <div className="list">
               <ul className="list-unstyled">
                 {list.map((item, index) => (
-                  <li key={index}>
+                  <li key={index} data-aos="fade-right">
                     <div className="title-list d-flex">
                       <div className="icon mr-3">{getIcon(item.iconName)}</div>
                       <div className="h5">{item.title}</div>
@@ -59,7 +70,7 @@ function WhatWeDo() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="text-center">
+            <div className="text-center" data-aos="flip-right">
               <img src={imageSrc} className="img-fluid rounded-lg" alt="" />
             </div>
           </div>
