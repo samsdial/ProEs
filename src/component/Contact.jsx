@@ -1,8 +1,8 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import ContactData from "./ContactData";
-import NavbarData from "./NavabarData";
+import ContactData from "../Data/ContactData";
+import NavbarData from "../Data/NavabarData";
 
 function Contact() {
   const { contact } = NavbarData;

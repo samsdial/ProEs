@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { BsFillPinMapFill, BsList, BsPhone } from "react-icons/bs";
-import NavbarData from "./NavabarData";
+import NavbarData from "../Data/NavabarData";
 // import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
 function Navbar() {

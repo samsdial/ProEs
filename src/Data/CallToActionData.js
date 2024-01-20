@@ -4,8 +4,7 @@ const CallToActionData = {
   id: "call",
   backgroundImage: One,
   content: {
-    title:
-      "¡Cómo podemos ayudarle a satisfacer sus necesidades de molienda de alimentos!",
+    title: "¡Como le podemos ayudar a satisfacer su necesidad de molienda.!",
     action: {
       buttonText: "Contáctenos",
       buttonLink: "#contact",

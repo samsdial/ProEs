@@ -1,36 +1,24 @@
 import { BsBalloonHeart } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa";
-// import GalleryOne from "../assets/gallery-1.jpg";
-// import GalleryTwo from "../assets/gallery-2.jpg";
-// import GalleryThree from "../assets/gallery-3.jpg";
-// import GalleryFour from "../assets/gallery-4.jpg";
-// import GalleryFive from "../assets/gallery-5.jpg";
-// import GallerySix from "../assets/gallery-6.jpg";
 
 function GalleryStart() {
   const imageItems = [
     {
-      
       alt: "Image 1",
     },
     {
-      
       alt: "Image 2",
     },
     {
-      
       alt: "Image 3",
     },
     {
-      
       alt: "Image 4",
     },
     {
-      
       alt: "Image 5",
     },
     {
-      
       alt: "Image 6",
     },
   ];

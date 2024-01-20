@@ -106,7 +106,7 @@ function Rsvp() {
                   </div>
                   <div className="text-center" data-aos="fade-up">
                     <button
-                      className="btn btn-secondary mr-5 font-weight-bold py-3 px-5"
+                      className="btn btn-secondary font-weight-bold py-3 px-5"
                       type="submit"
                     >
                       Enviar

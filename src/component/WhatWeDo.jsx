@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { BsVinyl, BsVinylFill, BsWater } from "react-icons/bs";
-import WhatWeDoData from "./WhatWeDoData";
+import WhatWeDoData from "../Data/WhatWeDoData";
 
 function WhatWeDo() {
   const { title, subtitle, paragraph, list, imageSrc } = WhatWeDoData;
@@ -30,7 +30,7 @@ function WhatWeDo() {
     <div className="container-fluid py-5 bg-secondary" id="service">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 d-flex align-items-start flex-column">
+          <div className="col-md-6 col-lg-6 d-flex align-items-start flex-column">
             <div className="title mb-3">
               <h2 className="text-uppercase" data-aos="flip-left">
                 {title}
@@ -69,7 +69,7 @@ function WhatWeDo() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-md-6 col-lg-6">
             <div className="text-center" data-aos="flip-right">
               <img src={imageSrc} className="img-fluid rounded-lg" alt="" />
             </div>

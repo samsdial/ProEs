@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import CallToActionData from "./CallToActionData";
+import CallToActionData from "../Data/CallToActionData";
 function CallToAction() {
   const { id, backgroundImage, content } = CallToActionData;
 
@@ -29,10 +29,7 @@ function CallToAction() {
               {content.title}
             </h2>
             <div className="action mt-2" data-aos="fade-up">
-              <a
-                href={content.action.buttonLink}
-                className="btn btn-secondary mr-5"
-              >
+              <a href={content.action.buttonLink} className="btn btn-secondary">
                 {content.action.buttonText}
               </a>
             </div>

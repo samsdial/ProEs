@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import CarouselEndData from "./CarouselEndData";
+import CarouselEndData from "../Data/CarouselEndData";
 import VideoModal from "./VideoModal";
 
 function CarouselEnd() {

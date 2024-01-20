@@ -21,7 +21,7 @@ const NavbarData = {
     },
   },
   brand: {
-    text: "ProEspecias",
+    text: "PROESPECIAS",
     link: "index.html",
   },
   copy: {

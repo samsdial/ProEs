@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import NavbarData from "./NavabarData";
+import NavbarData from "../Data/NavabarData";
 
 function Footer() {
   const { brand, links, social, copy } = NavbarData;
