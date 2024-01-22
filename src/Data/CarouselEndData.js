@@ -7,9 +7,9 @@ import CarouselFourt from "../assets/carrosel-04.jpg";
 const CarouselEndData = [
   {
     image: CarouselOne,
-    title: "Maquila de Alimentos",
+    title: "Molienda de Alimentos",
     description:
-      "Transformación de partículas de alimentos, servicio de maquila",
+      "Transformación de partículas de alimento, servicio de molienda.",
     button1: {
       text: "¿Qué hacemos?",
       className: "btn btn-secondary mr-5",
