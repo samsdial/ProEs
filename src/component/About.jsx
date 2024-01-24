@@ -9,7 +9,8 @@ function About() {
   const openModal = () => {
     setIsModalOpen(true);
   };
-  const { title, subtitle, paragraph, buttonText, imageSrc } = AboutData;
+  const { title, subtitle, subParagraph, paragraph, buttonText, imageSrc } =
+    AboutData;
 
   useEffect(() => {
     AOS.init({
@@ -31,6 +32,11 @@ function About() {
               <div className="subtitle mb-3" data-aos="fade-right">
                 <h3 className="h1" style={{ lineHeight: "1.5" }}>
                   {subtitle}
+                </h3>
+              </div>
+              <div className="subtitle mb-3" data-aos="fade-right">
+                <h3 className="h3" style={{ lineHeight: "1.5" }}>
+                  {subParagraph}
                 </h3>
               </div>
               <div className="paragraf" data-aos="fade-right">

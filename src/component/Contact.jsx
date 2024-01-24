@@ -6,7 +6,7 @@ import NavbarData from "../Data/NavabarData";
 
 function Contact() {
   const { contact } = NavbarData;
-  const { id, title, subtitle, paragraph } = ContactData;
+  const { id, title, subtitle, subParagraph, paragraph } = ContactData;
 
   useEffect(() => {
     AOS.init({
@@ -24,9 +24,15 @@ function Contact() {
                 {title}
               </h2>
             </div>
+
             <div className="subtitle mb-3" data-aos="fade-right">
               <h3 className="h1" style={{ lineHeight: "1.5" }}>
                 {subtitle}
+              </h3>
+            </div>
+            <div className="subtitle mb-3" data-aos="fade-right">
+              <h3 className="h3" style={{ lineHeight: "1.5" }}>
+                {subParagraph}
               </h3>
             </div>
             <div className="paragraf" data-aos="fade-right">

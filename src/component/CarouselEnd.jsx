@@ -50,14 +50,14 @@ function CarouselEnd() {
                 <div className="row mr-0 ml-0">
                   <div className="col-md-12 col-lg-6 py-lg-5 px-0">
                     <h1
-                      className="display-1 font-secondary text-white mt-n3 mb-md-2"
+                      className="display-1 font-secondary text-dark mt-n3 mb-md-2"
                       data-aos="fade-up"
                     >
                       {item.title}
                     </h1>
                     <div className="d-inline-block py-3 pr-2">
                       <h3
-                        className="h3 font-weight-light text-white m-0"
+                        className="h3 font-weight-light text-dark m-0"
                         data-aos="fade-up"
                       >
                         {item.description}
@@ -97,7 +97,7 @@ function CarouselEnd() {
               <div className="container">
                 <div className="d-flex align-items-center">
                   <h2
-                    className="text-white font-weight-light text-monospace mb-0"
+                    className="text-dark font-weight-light text-monospace mb-0"
                     data-aos="flip-down"
                   >
                     {item.additionalInfo.content.title1}
@@ -107,7 +107,7 @@ function CarouselEnd() {
                     data-aos="zoom-in"
                   ></div>
                   <h2
-                    className="text-white font-weight-light text-monospace mb-0"
+                    className="text-dark font-weight-light mb-0"
                     data-aos="flip-down"
                   >
                     {item.additionalInfo.content.title2}

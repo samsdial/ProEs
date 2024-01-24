@@ -9335,11 +9335,11 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #121F38 !important;
+  color: var(--dark) !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: black !important;
+  color: var(--dark) !important;
 }
 
 .text-body {
@@ -9860,7 +9860,7 @@ input[type="range"]:focus::-moz-range-thumb {
 /*line border*/
 .box-line {
   height: 0.05rem;
-  background-color: var(--white);
+  background-color: var(--dark);
   width: 70%;
 }
 
