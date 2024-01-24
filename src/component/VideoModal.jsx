@@ -21,7 +21,7 @@ function VideoModal({ show, onHide }) {
         <div className="embed-responsive embed-responsive-16by9">
           <iframe
             className="embed-responsive-item"
-            src="https://www.youtube.com/embed/YYe5pHW4G2c"
+            src="https://www.youtube.com/embed/Ix6s73qDfXM"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
